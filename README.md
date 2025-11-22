@@ -31,13 +31,13 @@ BA-to-SW-Dev/
 ### Clone Project
 ```bash
 # 방법 1: 한 번에 클론하기 (권장)
-git clone --recursive https://github.com/beyondnr/beyondnr.git
+git clone --recursive https://github.com/beyondnr/BA-to-SW-Dev.git
 
 # 방법 2: 이미 클론했다면 서브모듈 업데이트하기
 git submodule update --init --recursive
 ```
 
 ## 🔗 Related Repositories
-- **Main Repo (Docs & Config)**: [beyondnr/beyondnr](https://github.com/beyondnr/beyondnr)
+- **Main Repo (Docs & Config)**: [beyondnr/BA-to-SW-Dev](https://github.com/beyondnr/BA-to-SW-Dev)
 - **Code Repo (Studio)**: [beyondnr/studio](https://github.com/beyondnr/studio)
 
