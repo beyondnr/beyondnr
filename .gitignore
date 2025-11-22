@@ -1,15 +1,38 @@
-# 의존성 파일 무시 (모든 하위 폴더 포함)
-**/node_modules/
+# Dependencies
+**/node_modules
 **/.pnp
 .pnp.js
+.yarn/install-state.gz
 
-# Next.js 빌드 결과물 무시
+# Next.js
 **/.next/
 **/out/
 **/build/
 
-# 환경변수 및 시스템 파일
-.env*
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.*
+
+# System Files
 .DS_Store
+Thumbs.db
 
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
 
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vercel
+.vercel
