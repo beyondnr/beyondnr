@@ -14,8 +14,8 @@ BA-to-SW-Dev/
 │   ├── 2_Docs       # PRD, SRS, Value Proposition 등 핵심 문서
 │   └── ...
 │
-├── Proto/
-│   └── Studio/      # [Submodule] 실제 소스 코드 리포지토리
+├── Frontend/
+│   └── SCON-Firebase/ # [Submodule] 실제 소스 코드 리포지토리
 │       ├── src/     # Next.js 소스 코드
 │       ├── tasks/   # 개발 관련 이슈 및 태스크 관리
 │       └── ...
@@ -26,7 +26,7 @@ BA-to-SW-Dev/
 
 ## 🚀 Getting Started
 
-이 프로젝트는 **Git Submodule**을 포함하고 있습니다. 처음 프로젝트를 내려받을 때는 아래 명령어를 사용해야 소스 코드(`Studio`)까지 함께 받아집니다.
+이 프로젝트는 **Git Submodule**을 포함하고 있습니다. 처음 프로젝트를 내려받을 때는 아래 명령어를 사용해야 소스 코드(`SCON-Firebase`)까지 함께 받아집니다.
 
 ### Clone Project
 ```bash
@@ -39,5 +39,5 @@ git submodule update --init --recursive
 
 ## 🔗 Related Repositories
 - **Main Repo (Docs & Config)**: [beyondnr/BA-to-SW-Dev](https://github.com/beyondnr/BA-to-SW-Dev)
-- **Code Repo (Studio)**: [beyondnr/studio](https://github.com/beyondnr/studio)
+- **Code Repo (SCON-Firebase)**: [beyondnr/studio](https://github.com/beyondnr/studio)
 

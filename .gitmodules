@@ -1,3 +1,3 @@
 [submodule "5_Proto"]
-	path = Proto/Studio
+	path = Frontend/SCON-Firebase
 	url = https://github.com/beyondnr/studio.git
